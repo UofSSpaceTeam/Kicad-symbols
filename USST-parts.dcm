@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MKL04Z32_TQFP32
+D Bootloader chip for the teensy 3.2
+F http://www.mouser.com/ds/2/302/KL04P48M48SF1-782352.pdf
+$ENDCMP
+#
 $CMP mk20dx256vlh7
 D Microprocessor that the Teensy 3.1/3.2 uses
 K teensy
