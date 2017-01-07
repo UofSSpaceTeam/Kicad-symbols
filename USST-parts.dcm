@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EC90_Flat
+D Connector, double row, 02x04
+K connector
+$ENDCMP
+#
 $CMP LP38691
 D Low drop out 5V regulator. 
 F http://www.ti.com/lit/ds/symlink/lp38691.pdf
