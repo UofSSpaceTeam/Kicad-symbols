@@ -15,6 +15,12 @@ D Low drop out 5V regulator.
 F http://www.ti.com/lit/ds/symlink/lp38691.pdf
 $ENDCMP
 #
+$CMP MCP2562
+D CAN Bus Transciever
+K CAN, Microchip
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf
+$ENDCMP
+#
 $CMP MKL04Z32_TQFP32
 D Bootloader chip for the teensy 3.2
 F http://www.mouser.com/ds/2/302/KL04P48M48SF1-782352.pdf
