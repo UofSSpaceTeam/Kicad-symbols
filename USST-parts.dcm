@@ -10,6 +10,12 @@ D Connector, double row, 02x04
 K connector
 $ENDCMP
 #
+$CMP ENC28J60
+D ENC28J60 Single Chip Ethernet Interface, SSOP-28
+K ENC Ethernet
+F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+$ENDCMP
+#
 $CMP LP38691
 D Low drop out 5V regulator. 
 F http://www.ti.com/lit/ds/symlink/lp38691.pdf
@@ -31,7 +37,12 @@ D Bootloader chip for the teensy 3.2
 F http://www.mouser.com/ds/2/302/KL04P48M48SF1-782352.pdf
 $ENDCMP
 #
-$CMP Si9435
+$CMP RJ45-HR911105A
+D RJ45 with transformer + leds WURTH
+K RJ45
+$ENDCMP
+#
+$CMP SI9435DY
 D P-Channel Power P-Channel MOSFET, Vds 30V SO-8
 K PMOS
 $ENDCMP
