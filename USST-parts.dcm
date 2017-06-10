@@ -1,8 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CAN_CONN_01X04
+D Connector, single row, 01x04
+K connector
+$ENDCMP
+#
 $CMP EC90_Flat
 D Connector, double row, 02x04
 K connector
+$ENDCMP
+#
+$CMP ENC28J60
+D ENC28J60 Single Chip Ethernet Interface, SSOP-28
+K ENC Ethernet
+F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
 $ENDCMP
 #
 $CMP LP38691
@@ -24,6 +35,16 @@ $ENDCMP
 $CMP MKL04Z32_TQFP32
 D Bootloader chip for the teensy 3.2
 F http://www.mouser.com/ds/2/302/KL04P48M48SF1-782352.pdf
+$ENDCMP
+#
+$CMP RJ45-HR911105A
+D RJ45 with transformer + leds WURTH
+K RJ45
+$ENDCMP
+#
+$CMP SI9435DY
+D P-Channel Power P-Channel MOSFET, Vds 30V SO-8
+K PMOS
 $ENDCMP
 #
 $CMP mk20dx256vlh7
