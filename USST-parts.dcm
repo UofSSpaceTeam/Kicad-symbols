@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP A4988
+D Stepper motor driver
+$ENDCMP
+#
 $CMP CAN_CONN_01X04
 D Connector, single row, 01x04
 K connector
