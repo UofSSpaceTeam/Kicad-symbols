@@ -51,6 +51,10 @@ D P-Channel Power P-Channel MOSFET, Vds 30V SO-8
 K PMOS
 $ENDCMP
 #
+$CMP VNH7070AS
+D Stepper motor driver
+$ENDCMP
+#
 $CMP mk20dx256vlh7
 D Microprocessor that the Teensy 3.1/3.2 uses
 K teensy
